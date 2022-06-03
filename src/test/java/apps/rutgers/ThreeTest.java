@@ -1,4 +1,4 @@
-package apps.rutger;
+package apps.rutgers;
 
 public class ThreeTest {
 }
