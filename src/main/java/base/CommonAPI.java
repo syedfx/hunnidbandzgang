@@ -50,7 +50,7 @@ public class CommonAPI {
 
     @Parameters({"url","browser","os"})
     @BeforeMethod
-    public void setUp(@Optional("https://www.google.com") String url, @Optional("chrome") String browser, @Optional("windows") String os){
+    public void setUp(@Optional("https://www.google.com/") String url, @Optional("chrome") String browser, @Optional("windows") String os){
         getDriver(browser, os);
         driver.manage().window().maximize();
         driver.get(url);
@@ -58,7 +58,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void tearDown(){
-        driver.close();
+       driver.close();
     }
 
     public String getPageTitle(){
