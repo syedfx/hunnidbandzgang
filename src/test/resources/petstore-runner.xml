@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="amazon smoke amazon">
+    <parameter name="url" value="https://petstore.octoperf.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+
+    <test name="AddMoreSearchItemsTest petstore">
+        <classes>
+          <class name="apps.petstore.AddMoreSearchItemsTest"></class>
+        </classes>
+    </test>
+
+    <test name="AddToCartTest petstore">
+        <classes>
+            <class name="apps.petstore.AddToCartTest"></class>
+        </classes>
+    </test>
+
+    <test name="BirdsPage petstore">
+        <classes>
+            <class name="apps.petstore.BirdsPage"></class>
+        </classes>
+    </test>
+
+    <test name="Blog petstore">
+        <classes>
+            <class name="apps.petstore.Blog"></class>
+        </classes>
+    </test>
+
+    <test name="CatalogPageTest petstore">
+        <classes>
+            <class name="apps.petstore.CatalogPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="CatsPage petstore">
+        <classes>
+            <class name="apps.petstore.CatsPage"></class>
+        </classes>
+    </test>
+
+    <test name="CompleteRegisterTest petstore">
+        <classes>
+            <class name="apps.petstore.CompleteRegisterTest"></class>
+        </classes>
+    </test>
+
+    <test name="CreateAccountTest petstore">
+        <classes>
+            <class name="apps.petstore.CreateAccountTest"></class>
+        </classes>
+    </test>
+
+    <test name="DogPage petstore">
+        <classes>
+            <class name="apps.petstore.DogPage"></class>
+        </classes>
+    </test>
+
+    <test name="FishIDDetails petstore">
+        <classes>
+            <class name="apps.petstore.FishIDDetails"></class>
+        </classes>
+    </test>
+
+    <test name="FishTest petstore">
+        <classes>
+            <class name="apps.petstore.FishTest"></class>
+        </classes>
+    </test>
+
+    <test name="Help petstore">
+        <classes>
+            <class name="apps.petstore.Help"></class>
+        </classes>
+    </test>
+
+    <test name="HomePageTest petstore">
+        <classes>
+            <class name="apps.petstore.HomePageTest"></class>
+        </classes>
+    </test>
+
+    <test name="InValidSearch petstore">
+        <classes>
+            <class name="apps.petstore.InValidSearch"></class>
+        </classes>
+    </test>
+
+    <test name="LoggedChgQty petstore">
+        <classes>
+            <class name="apps.petstore.LoggedChgQty"></class>
+        </classes>
+    </test>
+
+    <test name="LoggedEmptyCart petstore">
+        <classes>
+            <class name="apps.petstore.LoggedEmptyCart"></class>
+        </classes>
+    </test>
+
+    <test name="LoggedinAddBirdsTest petstore">
+        <classes>
+            <class name="apps.petstore.LoggedinAddBirdsTest"></class>
+        </classes>
+    </test>
+
+    <test name="LoggedInMultiATC petstore">
+        <classes>
+            <class name="apps.petstore.LoggedInMultiATC"></class>
+        </classes>
+    </test>
+
+
+    <test name="LoggedinParrotCheckOut petstore">
+        <classes>
+            <class name="apps.petstore.LoggedinParrotCheckOut"></class>
+        </classes>
+    </test>
+
+    <test name="LoggedinUpdateCreditCard petstore">
+        <classes>
+            <class name="apps.petstore.LoggedinUpdateCreditCard"></class>
+        </classes>
+    </test>
+
+
+    <test name="LoggedUpdateTotal petstore">
+        <classes>
+            <class name="apps.petstore.LoggedUpdateTotal"></class>
+        </classes>
+    </test>
+
+    <test name="LogOutTest petstore">
+        <classes>
+            <class name="apps.petstore.LogOutTest"></class>
+        </classes>
+    </test>
+
+    <test name="MainPageIMGReturn petstore">
+        <classes>
+            <class name="apps.petstore.MainPageIMGReturn"></class>
+        </classes>
+    </test>
+
+    <test name="ProceedToCheckOut petstore">
+        <classes>
+            <class name="apps.petstore.ProceedToCheckOut"></class>
+        </classes>
+    </test>
+
+    <test name="RemoveFishQauntityTest petstore">
+        <classes>
+            <class name="apps.petstore.RemoveFishQauntityTest"></class>
+        </classes>
+    </test>
+
+    <test name="ReptilePage petstore">
+        <classes>
+            <class name="apps.petstore.ReptilePage"></class>
+        </classes>
+    </test>
+
+    <test name="SearchDetailsTest petstore">
+        <classes>
+            <class name="apps.petstore.SearchDetailsTest"></class>
+        </classes>
+    </test>
+
+    <test name="SearchTest petstore">
+        <classes>
+            <class name="apps.petstore.SearchTest"></class>
+        </classes>
+    </test>
+
+    <test name="SelectNonBillingAddress petstore">
+        <classes>
+            <class name="apps.petstore.SelectNonBillingAddress"></class>
+        </classes>
+    </test>
+
+    <test name="ShipToNonBillingAddress petstore">
+        <classes>
+            <class name="apps.petstore.ShipToNonBilling"></class>
+        </classes>
+    </test>
+
+    <test name="SignInTest petstore">
+        <classes>
+            <class name="apps.petstore.SignInTest"></class>
+        </classes>
+    </test>
+
+    <test name="SignWithGoogle petstore">
+        <classes>
+            <class name="apps.petstore.SignWithGoogle"></class>
+        </classes>
+    </test>
+
+    <test name="UpdateCartWithSearchCheckout petstore">
+        <classes>
+            <class name="apps.petstore.UpdateCartWithSearchCheckout"></class>
+        </classes>
+    </test>
+
+    <test name="UpdateCartFishQauntity petstore">
+        <classes>
+            <class name="apps.petstore.UpdateFishQauntityTest"></class>
+        </classes>
+    </test>
+
+    <test name="UpdateCartPassWord petstore">
+        <classes>
+            <class name="apps.petstore.UpdatePassWord"></class>
+        </classes>
+    </test>
+
+    <test name="UpdTotalAddSearchItem petstore">
+        <classes>
+            <class name="apps.petstore.UpdTotalAddSearchItem"></class>
+        </classes>
+    </test>
+
+    <test name="ValidateMultiAnimals petstore">
+        <classes>
+            <class name="apps.petstore.ValidateMultiAnimals"></class>
+        </classes>
+    </test>
+
+    <test name="ValidateRegistrationTest petstore">
+        <classes>
+            <class name="apps.petstore.ValidateRegistrationTest"></class>
+        </classes>
+    </test>
+
+    <test name="ValidateLoginTest petstore">
+        <classes>
+            <class name="apps.petstore.ValidLoginTest"></class>
+        </classes>
+    </test>
+
+    <test name="ViewMultipleFishIDTest petstore">
+        <classes>
+            <class name="apps.petstore.ViewMultipleFishIDTest"></class>
+        </classes>
+    </test>
+
+
+</suite>
