@@ -6,245 +6,245 @@
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="windows"></parameter>
 
+
     <test name="AddMoreSearchItemsTest petstore">
         <classes>
-          <class name="apps.petstore.AddMoreSearchItemsTest"></class>
+            <class name="apps.petstore.AddMoreSearchItemsTest"/>
         </classes>
     </test>
 
     <test name="AddToCartTest petstore">
         <classes>
-            <class name="apps.petstore.AddToCartTest"></class>
+            <class name="apps.petstore.AddToCartTest"/>
         </classes>
     </test>
 
     <test name="BirdsPage petstore">
         <classes>
-            <class name="apps.petstore.BirdsPage"></class>
+            <class name="apps.petstore.BirdsPage"/>
         </classes>
     </test>
 
     <test name="Blog petstore">
         <classes>
-            <class name="apps.petstore.Blog"></class>
+            <class name="apps.petstore.Blog"/>
         </classes>
     </test>
 
     <test name="CatalogPageTest petstore">
         <classes>
-            <class name="apps.petstore.CatalogPageTest"></class>
+            <class name="apps.petstore.CatalogPageTest"/>
         </classes>
     </test>
 
     <test name="CatsPage petstore">
         <classes>
-            <class name="apps.petstore.CatsPage"></class>
+            <class name="apps.petstore.CatsPage"/>
         </classes>
     </test>
 
     <test name="CompleteRegisterTest petstore">
         <classes>
-            <class name="apps.petstore.CompleteRegisterTest"></class>
-        </classes>
+            <class name="apps.petstore.CompleteRegisterTest"/>
     </test>
 
     <test name="CreateAccountTest petstore">
         <classes>
-            <class name="apps.petstore.CreateAccountTest"></class>
+            <class name="apps.petstore.CreateAccountTest"/>
         </classes>
     </test>
 
     <test name="DogPage petstore">
         <classes>
-            <class name="apps.petstore.DogPage"></class>
+            <class name="apps.petstore.DogPage"/>
         </classes>
     </test>
 
     <test name="FishIDDetails petstore">
         <classes>
-            <class name="apps.petstore.FishIDDetails"></class>
+            <class name="apps.petstore.FishIDDetails"/>
         </classes>
     </test>
 
     <test name="FishTest petstore">
         <classes>
-            <class name="apps.petstore.FishTest"></class>
+            <class name="apps.petstore.FishTest"/>
         </classes>
     </test>
 
     <test name="Help petstore">
         <classes>
-            <class name="apps.petstore.Help"></class>
+            <class name="apps.petstore.Help"/>
         </classes>
     </test>
 
     <test name="HomePageTest petstore">
         <classes>
-            <class name="apps.petstore.HomePageTest"></class>
+            <class name="apps.petstore.HomePageTest"/>
         </classes>
     </test>
 
     <test name="InValidSearch petstore">
         <classes>
-            <class name="apps.petstore.InValidSearch"></class>
+            <class name="apps.petstore.InValidSearch"/>
         </classes>
     </test>
 
     <test name="LoggedChgQty petstore">
         <classes>
-            <class name="apps.petstore.LoggedChgQty"></class>
+            <class name="apps.petstore.LoggedChgQty"/>
         </classes>
     </test>
 
     <test name="LoggedEmptyCart petstore">
         <classes>
-            <class name="apps.petstore.LoggedEmptyCart"></class>
+            <class name="apps.petstore.LoggedEmptyCart"/>
         </classes>
     </test>
 
     <test name="LoggedinAddBirdsTest petstore">
         <classes>
-            <class name="apps.petstore.LoggedinAddBirdsTest"></class>
+            <class name="apps.petstore.LoggedinAddBirdsTest"/>
         </classes>
     </test>
 
     <test name="LoggedInMultiATC petstore">
         <classes>
-            <class name="apps.petstore.LoggedInMultiATC"></class>
+            <class name="apps.petstore.LoggedInMultiATC"/>
         </classes>
     </test>
 
 
     <test name="LoggedinParrotCheckOut petstore">
         <classes>
-            <class name="apps.petstore.LoggedinParrotCheckOut"></class>
+            <class name="apps.petstore.LoggedinParrotCheckOut"/>
         </classes>
     </test>
 
     <test name="LoggedinUpdateCreditCard petstore">
         <classes>
-            <class name="apps.petstore.LoggedinUpdateCreditCard"></class>
+            <class name="apps.petstore.LoggedinUpdateCreditCard"/>
         </classes>
     </test>
 
 
     <test name="LoggedUpdateTotal petstore">
         <classes>
-            <class name="apps.petstore.LoggedUpdateTotal"></class>
+            <class name="apps.petstore.LoggedUpdateTotal"/>
         </classes>
     </test>
 
     <test name="LogOutTest petstore">
         <classes>
-            <class name="apps.petstore.LogOutTest"></class>
+            <class name="apps.petstore.LogOutTest"/>
         </classes>
     </test>
 
     <test name="MainPageIMGReturn petstore">
         <classes>
-            <class name="apps.petstore.MainPageIMGReturn"></class>
+            <class name="apps.petstore.MainPageIMGReturn"/>
         </classes>
     </test>
 
     <test name="ProceedToCheckOut petstore">
         <classes>
-            <class name="apps.petstore.ProceedToCheckOut"></class>
+            <class name="apps.petstore.ProceedToCheckOut"/>
         </classes>
     </test>
 
     <test name="RemoveFishQauntityTest petstore">
         <classes>
-            <class name="apps.petstore.RemoveFishQauntityTest"></class>
+            <class name="apps.petstore.RemoveFishQauntityTest"/>
         </classes>
     </test>
 
     <test name="ReptilePage petstore">
         <classes>
-            <class name="apps.petstore.ReptilePage"></class>
+            <class name="apps.petstore.ReptilePage"/>
         </classes>
     </test>
 
     <test name="SearchDetailsTest petstore">
         <classes>
-            <class name="apps.petstore.SearchDetailsTest"></class>
+            <class name="apps.petstore.SearchDetailsTest">/>
         </classes>
     </test>
 
     <test name="SearchTest petstore">
         <classes>
-            <class name="apps.petstore.SearchTest"></class>
+            <class name="apps.petstore.SearchTest"/>
         </classes>
     </test>
 
     <test name="SelectNonBillingAddress petstore">
         <classes>
-            <class name="apps.petstore.SelectNonBillingAddress"></class>
+            <class name="apps.petstore.SelectNonBillingAddress"/>
         </classes>
     </test>
 
     <test name="ShipToNonBillingAddress petstore">
         <classes>
-            <class name="apps.petstore.ShipToNonBilling"></class>
+            <class name="apps.petstore.ShipToNonBilling"/>
         </classes>
     </test>
 
     <test name="SignInTest petstore">
         <classes>
-            <class name="apps.petstore.SignInTest"></class>
+            <class name="apps.petstore.SignInTest"/>
         </classes>
     </test>
 
     <test name="SignWithGoogle petstore">
         <classes>
-            <class name="apps.petstore.SignWithGoogle"></class>
+            <class name="apps.petstore.SignWithGoogle"/>
         </classes>
     </test>
 
     <test name="UpdateCartWithSearchCheckout petstore">
         <classes>
-            <class name="apps.petstore.UpdateCartWithSearchCheckout"></class>
+            <class name="apps.petstore.UpdateCartWithSearchCheckout"/>
         </classes>
     </test>
 
     <test name="UpdateCartFishQauntity petstore">
         <classes>
-            <class name="apps.petstore.UpdateFishQauntityTest"></class>
+            <class name="apps.petstore.UpdateFishQauntityTest"/>
         </classes>
     </test>
 
     <test name="UpdateCartPassWord petstore">
         <classes>
-            <class name="apps.petstore.UpdatePassWord"></class>
+            <class name="apps.petstore.UpdatePassWord"/>
         </classes>
     </test>
 
     <test name="UpdTotalAddSearchItem petstore">
         <classes>
-            <class name="apps.petstore.UpdTotalAddSearchItem"></class>
+            <class name="apps.petstore.UpdTotalAddSearchItem"/>
         </classes>
     </test>
 
     <test name="ValidateMultiAnimals petstore">
         <classes>
-            <class name="apps.petstore.ValidateMultiAnimals"></class>
+            <class name="apps.petstore.ValidateMultiAnimals"/>
         </classes>
     </test>
 
     <test name="ValidateRegistrationTest petstore">
         <classes>
-            <class name="apps.petstore.ValidateRegistrationTest"></class>
+            <class name="apps.petstore.ValidateRegistrationTest"/>
         </classes>
     </test>
 
     <test name="ValidateLoginTest petstore">
         <classes>
-            <class name="apps.petstore.ValidLoginTest"></class>
+            <class name="apps.petstore.ValidLoginTest"/>
         </classes>
     </test>
 
     <test name="ViewMultipleFishIDTest petstore">
         <classes>
-            <class name="apps.petstore.ViewMultipleFishIDTest"></class>
+            <class name="apps.petstore.ViewMultipleFishIDTest"/>
         </classes>
     </test>
 
