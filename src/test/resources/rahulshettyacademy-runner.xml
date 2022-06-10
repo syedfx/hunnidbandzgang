@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="phptravel smoke phptravel">
+    <parameter name="url" value="https://rahulshettyacademy.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+
+
+    <test name="AccessToRahulLinkedIn rahulshettyacademy">
+        <classes>
+          <class name="apps.rahulshettyacademy.AccessToRahulLinkedIn"/>
+        </classes>
+    </test>
+
+    <test name="BlogSelenium rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.BlogSelenium"/>
+        </classes>
+    </test>
+
+    <test name="BronzeMentoring rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.BronzeMentoring"/>
+        </classes>
+    </test>
+
+    <test name="CompleteBronzeMentoringForm rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.CompleteBronzeMentoringForm"/>
+        </classes>
+    </test>
+
+    <test name="Consulting rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.Consulting"/>
+        </classes>
+    </test>
+
+    <test name="ContactUsPage rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.ContactUsPage"/>
+        </classes>
+    </test>
+
+    <test name="EditProfile rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.EditProfile"/>
+        </classes>
+    </test>
+
+    <test name="Enroll rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.Enroll"/>
+        </classes>
+    </test>
+
+    <test name="EnrollAllAccessCourse rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.EnrollAllAccessCourse"/>
+        </classes>
+    </test>
+
+    <test name="EnrollAngularCourse rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.EnrollAngularCourse"/>
+        </classes>
+    </test>
+
+    <test name="EnrollJavaScript rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.EnrollJavaScriptCourse"/>
+        </classes>
+    </test>
+
+    <test name="EnrollPostManCourse rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.EnrollPythonCourse"/>
+        </classes>
+    </test>
+
+    <test name="EnrollPythonCourse rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.EnrollPythonCourse"/>
+        </classes>
+    </test>
+
+    <test name="EnrollSoftwareQualityAssurance rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.EnrollSoftwareQualityAssurance"/>
+        </classes>
+    </test>
+
+    <test name="FilterCurrency rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.FilterCurrency"/>
+        </classes>
+    </test>
+
+    <test name="ForgotPassword rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.ForgotPassword"/>
+        </classes>
+    </test>
+
+    <test name="HowToDownloadSelenium rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.HowToDownloadSelenium"/>
+        </classes>
+    </test>
+
+    <test name="InterviewQuestionsPage rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.InterviewQuestionsPage"/>
+        </classes>
+    </test>
+
+    <test name="InvalidLoginAccount rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.InvalidLoginAccount"/>
+        </classes>
+    </test>
+
+    <test name="LandingPage rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.LandingPage"/>
+        </classes>
+    </test>
+
+    <test name="LearningPathOnly rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.LearningPathOnlyJava"/>
+        </classes>
+    </test>
+
+    <test name="LoginFail rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.LoginFail"/>
+        </classes>
+    </test>
+
+    <test name="LoginPage rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.LoginPage"/>
+        </classes>
+    </test>
+
+    <test name="LogoutAccount rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.LogoutAccount"/>
+        </classes>
+    </test>
+
+    <test name="PartTimeJobs rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.PartTimeJobs"/>
+        </classes>
+    </test>
+
+    <test name="PracticePage rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.PracticePage"/>
+        </classes>
+    </test>
+
+    <test name="Pricing rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.Pricing"/>
+        </classes>
+    </test>
+
+    <test name="PythonCourseInfo rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.PythonCourseInfo"/>
+        </classes>
+    </test>
+
+    <test name="RahulHomePage rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.RahulHomePage"/>
+        </classes>
+    </test>
+
+    <test name="RahulShettyYoutubePage rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.RahulShettyYoutubePage"/>
+        </classes>
+    </test>
+
+    <test name="ReferFriendCopyURL rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.ReferFriendCopyURL"/>
+        </classes>
+    </test>
+
+    <test name="ResendVerificationEmail rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.ResendVerificationEmail"/>
+        </classes>
+    </test>
+
+    <test name="SearchJavaTopic rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.SearchJavaTopic"/>
+        </classes>
+    </test>
+
+    <test name="SeleniumInterviewQuestions rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.SeleniumInterviewQuestions"/>
+        </classes>
+    </test>
+
+    <test name="SignUpRahulShetty rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.SignUpRahulShetty"/>
+        </classes>
+    </test>
+
+    <test name="StartCoreJavaCourse rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.StartCoreJavaCourse"/>
+        </classes>
+    </test>
+
+    <test name="UpdateBillingAddress rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.UpdateBillingAddress"/>
+        </classes>
+    </test>
+
+    <test name="ValidLoginTest rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.ValidLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="ViewAllCourses rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.ViewAllCourses"/>
+        </classes>
+    </test>
+
+    <test name="WhatsNewSelenium rahulshettyacademy">
+        <classes>
+            <class name="apps.rahulshettyacademy.WhatsNewSelenium"/>
+        </classes>
+    </test>
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>
